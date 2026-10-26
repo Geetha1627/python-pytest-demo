@@ -11,3 +11,6 @@ def test_add_negative_numbers():
 
 def test_add_neg_and_pos():
     assert add(3, -4) == -1
+
+def test_subtract():
+    assert 4 - 3 == 1
